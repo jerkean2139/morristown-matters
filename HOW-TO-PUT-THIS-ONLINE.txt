@@ -1,0 +1,173 @@
+==========================================================
+  HOW TO PUT THE MORRISTOWN MATTERS SITE ONLINE
+  A step-by-step guide. No tech experience needed.
+==========================================================
+
+WHAT THIS IS
+------------
+This folder is your new website. It has a home page for
+Morristown Matters and an event page for Derby Days.
+
+THE BIG IDEA (read this first)
+------------------------------
+We are going to put this new site online at a FREE host
+called Netlify. Your current site stays exactly where it is.
+Nothing your visitors see changes until the very last step
+(Part 5), and that step can be undone. So you can build it,
+look at it, and share it with no risk.
+
+You will do 5 short parts:
+  Part 1  Unzip the folder
+  Part 2  Make a free Netlify account
+  Part 3  Drag the folder onto Netlify (your site goes live
+          on a temporary web address)
+  Part 4  Look at it and share it
+  Part 5  ONLY when you are ready: point your real web
+          address at the new site
+
+
+==========================================================
+PART 1  -  UNZIP THE FOLDER
+==========================================================
+1. Find the file you downloaded: morristown-matters-site.zip
+2. Right-click it.
+   - Windows: click "Extract All", then "Extract".
+   - Mac: just double-click it.
+3. You now have a normal folder named "morristown-matters-site".
+
+WHAT YOU'LL SEE: a folder with index.html, derby-days.html,
+styles.css, an "images" folder, and a few text files.
+Keep all of these together. Do not move files out of it.
+
+
+==========================================================
+PART 2  -  MAKE A FREE NETLIFY ACCOUNT
+==========================================================
+1. Go to:  https://www.netlify.com
+2. Click "Sign up" (top right).
+3. Sign up with your email or a Google account. It is free.
+4. When asked, you can skip or dismiss any "team" or
+   "import a project" setup. You just need to be logged in.
+
+WHAT YOU'LL SEE: a dashboard. It may say you have no sites
+yet. That is fine.
+
+
+==========================================================
+PART 3  -  PUT THE SITE ONLINE (THE EASY DRAG-AND-DROP)
+==========================================================
+1. Go to:  https://app.netlify.com/drop
+2. Open the "morristown-matters-site" folder from Part 1 in a
+   separate window so you can see it.
+3. Drag the WHOLE FOLDER onto the big dashed box on that page
+   and let go.
+
+WHAT YOU'LL SEE: a progress bar, then a live web address like
+   https://shiny-cupcake-12345.netlify.app
+That funny name is temporary and free. Click it. Your site is
+LIVE on the internet at that address. Your real domain is
+untouched.
+
+TIP: Rename it to something nicer.
+   - Click "Site configuration" (or "Site settings")
+   - Find "Change site name"
+   - Type something like "morristown-matters" -> save
+   - Your address becomes morristown-matters.netlify.app
+
+
+==========================================================
+PART 4  -  LOOK AT IT AND SHARE IT
+==========================================================
+1. Open the .netlify.app address on your computer and phone.
+2. Click around: the menu, the "Explore Events" button, and
+   the Derby Days event page.
+3. Share that link with your team for feedback. Anyone with
+   the link can see it. Your real site still has not changed.
+
+
+==========================================================
+PART 5  -  POINT YOUR REAL ADDRESS AT THE NEW SITE
+           (do this ONLY when you are 100% happy)
+==========================================================
+This is the only step that changes what the public sees when
+they type morristownderbydays.com. It is reversible.
+
+FIRST, A SAFETY NET:
+Before changing anything, take a SCREENSHOT of your current
+DNS settings (the page you reach in step 4 below). If anything
+looks wrong later, you can put the old values back exactly.
+
+1. In Netlify, open your site -> "Domain management"
+   (or "Domains") -> "Add a domain".
+2. Type your real address: morristownderbydays.com -> confirm.
+3. Netlify will show you what to enter. It will be EITHER:
+     (A) a set of "nameservers" (a few lines like
+         dns1.p01.nsone.net), OR
+     (B) an "A record" value (an IP number like 75.2.60.5)
+         and a "CNAME" for www.
+   Leave this page open. You will copy these exact values.
+
+4. Log in to wherever your domain is managed. For this site
+   that is most likely your Wix account (the domain may have
+   been bought through Wix or GoDaddy). Find the section
+   called "Domains" -> "DNS" or "Manage DNS".
+
+   >>> TAKE YOUR SCREENSHOT NOW (the safety net above). <<<
+
+5. Enter the values Netlify gave you:
+   - If Netlify gave NAMESERVERS: replace the existing
+     nameservers with Netlify's. This is the cleanest option.
+   - If Netlify gave an A RECORD + CNAME: change the "A"
+     record for "@" to the IP Netlify showed, and set the
+     "www" CNAME to the target Netlify showed.
+6. Save.
+
+WHAT YOU'LL SEE: it can take a few minutes up to about a day
+for the change to spread (this is normal, it is called DNS
+propagation). Netlify will also turn on the padlock (HTTPS)
+for you automatically once it sees the domain. You do not
+need to buy a certificate.
+
+7. Visit morristownderbydays.com. When it shows the new site
+   with a padlock, you are done.
+
+
+==========================================================
+HOW TO UNDO (if you ever want to)
+==========================================================
+Go back into your domain's DNS settings and restore the
+values from the screenshot you took. Within a little while it
+returns to the old site.
+
+
+==========================================================
+HOW TO UPDATE THE SITE LATER
+==========================================================
+1. Edit the files (or have them edited).
+2. Go to your site in Netlify -> "Deploys".
+3. Drag the updated folder onto the page.
+It replaces the old version. Your domain stays the same.
+
+
+==========================================================
+SWAPPING IN YOUR OWN PHOTOS (recommended)
+==========================================================
+The site uses real Morristown photos and your real sponsor
+logos, plus a few free stock photos for the festival shots.
+To use your own Derby Days photos instead:
+1. Open the "images" folder.
+2. Replace a photo with your own, keeping the SAME file name
+   (for example, save your fireworks photo as fireworks.jpg).
+3. Re-drag the folder to Netlify (see "update" above).
+See IMAGE-CREDITS.txt for which photos are stock.
+
+
+==========================================================
+WANT A CONTACT / SIGN-UP FORM THAT ACTUALLY SENDS?
+==========================================================
+Netlify can capture form submissions for free. The newsletter
+boxes on the site are styled but not yet wired to send. If you
+want them working, ask and we will turn on Netlify Forms (it
+is a one-line change per form).
+
+Questions? Keep this file. You can repeat any part safely.

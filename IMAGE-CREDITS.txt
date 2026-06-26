@@ -1,0 +1,60 @@
+IMAGE CREDITS & LICENSES
+========================================
+
+REAL MORRISTOWN PHOTOS / LOGOS
+------------------------------
+These were taken from the existing morristownderbydays.com site
+(owned/used by Morristown Matters):
+  images/logo.png            Morristown Matters logo
+  images/derby-logo.png      77th Derby Days logo
+  images/hero-morristown.jpg 'Welcome to Morristown' town sign
+  images/volunteers.jpg      Volunteer in a Morristown Matters shirt
+  images/sponsors/*.png      Sponsor logos (owned by each business)
+
+STOCK PHOTOS (free for commercial use, via Openverse)
+-----------------------------------------------------
+Each is licensed Creative Commons. If a license is 'by' or 'by-sa'
+you must keep credit visible if you keep the photo. Best practice:
+replace these with your own Derby Days photos when you have them.
+
+images/support-local.jpg
+   Title:   Reeve & Clarke Fine & Rare Books (former Frazier Shop) in which Timothy Eaton first worked in retail. Glen Williams, Ontario, Canada
+   Creator: Ken Heaton
+   License: CC BY-SA 4.0
+   Source:  https://commons.wikimedia.org/w/index.php?curid=46059681
+
+images/fireworks.jpg
+   Title:   Community residents watch grand finale
+   Creator: U.S. Forest Service (source)
+   License: CC CC0 1.0
+   Source:  https://www.rawpixel.com/image/8727736/photo-image-celebration-public-domain-fireworks
+
+images/community.jpg
+   Title:   DFC 2911 Children ride a colorful miniature train at a lively outdoor carnival as families watch from the sidelines
+   Creator: PattayaPatrol
+   License: CC BY-SA 4.0
+   Source:  https://commons.wikimedia.org/w/index.php?curid=189486903
+
+images/kids.jpg
+   Title:   DFC 4496 A glowing elephant ride waits quietly under the carnival lights as the fair sparkles into the night
+   Creator: PattayaPatrol
+   License: CC BY-SA 4.0
+   Source:  https://commons.wikimedia.org/w/index.php?curid=189024088
+
+images/music.jpg
+   Title:   Beach-Please-2022-crowd-stage-lights-night-performance
+   Creator: PinkBeachPlanet
+   License: CC BY-SA 4.0
+   Source:  https://commons.wikimedia.org/w/index.php?curid=191175557
+
+images/food.jpg
+   Title:   ood truck burgers
+   Creator: Jakub Kapusnak
+   License: CC CC0 1.0
+   Source:  https://www.rawpixel.com/image/447860/free-photo-image-food-truck-stall-queue
+
+images/parade.jpg
+   Title:   File:To Honor America (37412474021).jpg
+   Creator: Sam Howzit
+   License: CC BY 2.0
+   Source:  https://commons.wikimedia.org/w/index.php?curid=63059570
