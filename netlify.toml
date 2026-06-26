@@ -1,0 +1,29 @@
+# Netlify configuration for the Morristown Matters static site.
+# This is a plain HTML/CSS/JS site, so there is no build step:
+# Netlify just publishes the repository root as-is.
+
+[build]
+  # No build command needed for a static site.
+  command = ""
+  # Serve the files that live at the root of the repo.
+  publish = "."
+
+# Friendly URLs: allow /derby-days to resolve to derby-days.html
+[[redirects]]
+  from = "/derby-days"
+  to = "/derby-days.html"
+  status = 200
+
+# Sensible default security headers for a static marketing site.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# Long cache for static images (they are versioned by content/filename).
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
